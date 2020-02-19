@@ -28,6 +28,11 @@ To start the game, first press the Start Game button.
   T - Third-person perspective
   G - Global perspective
   ```
+Third Person Perspective:
+![third](docs/thirdperson.png)
+
+Global Perspective:
+![global](docs/global.png)
 
 Once the player has a move, the timer is triggered to record the time. 
 
