@@ -9,10 +9,13 @@ Our **maze game** allows people to use keystrokes to walk in a 3D maze, in which
 ### How to Play
 
 First, download the project, and run 'chmod u+x host.command' under this directory in terminal on your mac.
+
 Then, './host.command' in terminal, or double click the host.command file to run the host.
+
 Now, you can play the game in http://localhost:8000 (or other address shown in your terminal that you ran the host.command) from your browser.
 
 To start the game, first press the Start Game button. 
+
 6 keys are used for basic operations:
   ```
   W - Foward 
