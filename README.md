@@ -8,6 +8,10 @@ Our **maze game** allows people to use keystrokes to walk in a 3D maze, in which
 
 ### How to Play
 
+First, download the project, and run 'chmod u+x host.command' under this directory in terminal on your mac.
+Then, './host.command' in terminal, or double click the host.command file to run the host.
+Now, you can play the game in http://localhost:8000 (or other address shown in your terminal that you ran the host.command) from your browser.
+
 To start the game, first press the Start Game button. 
 6 keys are used for basic operations:
   ```
@@ -50,6 +54,15 @@ There is a red flag placed at the exit, as soon as the player touch the flag, th
 
 ### Individual Roles
 
+#### Wenxuan Liu
+
+- Wrote the animation for individual obstacle which is constructed by many cubes scaled and translated proportionally by time.
+- Wrote the destination detection method to activate win scene when character goes out of the maze.
+- Drew and wrote the UI interfaces in HTML including the beginning, die, and win scenes.
+- Added the timer, health, and key number UI, and wrote the algorithm to update timer.
+- Modified the obj models import methods, and collected all the models and constructed them into the appropriate textures, proportions and positions.
+- Added music and FX to the game, so that there are corresponding sounds when the character is win, wounded, walking, opening gates, and died.
+
 #### Ziyan Wang
 
 - Build the prototype of the maze.
@@ -70,15 +83,6 @@ There is a red flag placed at the exit, as soon as the player touch the flag, th
 - Implemented two test mode: 
   * Invincible mode where the player will not lose any live.
   * Walk-through mode where the player can go through all the walls and doors.
-
-#### Wenxuan Liu
-
-- Wrote the animation for individual obstacle which is constructed by many cubes scaled and translated proportionally by time.
-- Wrote the destination detection method to activate win scene when character goes out of the maze.
-- Drew and wrote the UI interfaces in HTML including the beginning, die, and win scenes.
-- Added the timer, health, and key number UI, and wrote the algorithm to update timer.
-- Modified the obj models import methods, and collected all the models and constructed them into the appropriate textures, proportions and positions.
-- Added music and FX to the game, so that there are corresponding sounds when the character is win, wounded, walking, opening gates, and died.
 
 ### Resource Citation
 
