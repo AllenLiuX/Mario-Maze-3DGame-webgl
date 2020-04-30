@@ -2,7 +2,7 @@
 
 ### Overview
 
-#### Now you can play it at https://www.pic.ucla.edu/~vincentliux/Mario/ !
+#### Now you can play it at https://www.pic.ucla.edu/~vincentliux/Mario/ ! (Recommanded browser is Chrome)
 
 ![begin3](docs/begin3.jpg)
 
